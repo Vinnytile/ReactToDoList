@@ -15,7 +15,7 @@ namespace WebToDo.Controllers
         {
             data = new List<ToDoItem>
             {
-                new ToDoItem { Id = Guid.NewGuid().ToString(), Text="coding", Status=true },
+                new ToDoItem { Id = Guid.NewGuid().ToString(), Text="codingffg", Status=true },
                 new ToDoItem { Id = Guid.NewGuid().ToString(), Text="reading", Status=false },
             };
         }
